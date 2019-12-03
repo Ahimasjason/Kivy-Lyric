@@ -13,9 +13,9 @@ from kivy.uix.popup import Popup
 from kivy.uix.label import Label
 from kivy.uix.modalview import ModalView
 import kivy.utils as utils
-from songs import *
+from .songs import *
 
-Builder.load_file('app_layout.kv')
+Builder.load_file('application/app_layout.kv')
 
 class FullImage(Image):
     pass
@@ -79,6 +79,6 @@ class MainApp(App):
         return self.sm
 
 
-if __name__ == '__main__':
-    app = MainApp()
-    app.run()
+# if __name__ == '__main__':
+#     app = MainApp()
+#     app.run()
