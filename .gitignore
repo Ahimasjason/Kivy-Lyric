@@ -1,3 +1,5 @@
 env/*
 *.pyc
 application/__pycache__/*
+*.buildozer
+*.buildozer.spec

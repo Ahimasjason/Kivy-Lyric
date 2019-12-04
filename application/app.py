@@ -77,8 +77,3 @@ class MainApp(App):
 
     def build(self):
         return self.sm
-
-
-# if __name__ == '__main__':
-#     app = MainApp()
-#     app.run()
